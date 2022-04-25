@@ -41,7 +41,7 @@ $(function ($) {
     var $typed = $("#typed");
     if ($typed.length > 0) {
       $typed.typed({
-        strings: ["C# Programming", "Back-end Development", "Software System Architect"],
+        strings: ["C# Programming", "Back-end Development", "Software Systems Architecture"],
         stringsElement: null,
         typeSpeed: 70,
         startDelay: 150,
