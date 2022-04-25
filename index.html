@@ -1,88 +1,113 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en">
 
 <head>
-
-  <meta charset="UTF-8">
-  
-  <title>Emmanuel Columbus Mugenyi</title>
-  
-  
-  
-  
-<style>
-body{
-    margin-top: 10%; 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: rgb(245, 245, 245);
-    background-color: rgb(15, 15, 15);
-}
-
-.typed {
-    line-height: 35px;
-    width: 80%;
-    font-size: 150%;
-    text-align: left;
-    font-family: "Courier New", "Lucida Console", monospace;
-    vertical-align: text-bottom;
-}
-
-.typed::after{
-    content: "|";
-    font-size: 150%;
-    line-height: 30px;
-    animation: blink .75s step-end infinite;
-}
-
-@keyframes blink {
-    from, to { color: transparent }
-    50% { color: rgba(245, 245, 245) }
-}
-</style>
-
-  <script>
-  window.console = window.console || function(t) {};
-</script>
-
-  
-  
-  <script>
-  if (document.location.search.match(/type=embed/gi)) {
-    window.parent.postMessage("resize", "*");
-  }
-</script>
-
-
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Emmanuel Columbus Mugenyi - Personal Portfolio </title>
+	<!-- favicon -->
+	<link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+	<!-- animate css -->
+	<link rel="stylesheet" href="assets/css/animate.css">
+	<!-- bootstrap -->
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<!-- plugin -->
+	<link rel="stylesheet" href="assets/css/plugin.css">
+	<!-- owl carousel -->
+	<link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+	<!-- main css -->
+	<link rel="stylesheet" href="assets/css/style.css">
+	<!-- responsive css -->
+	<link rel="stylesheet" href="assets/css/responsive.css">
 </head>
 
-<body translate="no" >
-  <div id = "typed" class = "typed"></div>
-      <script id="rendered-js" >
-let textLength = 0;
-let text = '>_ Mon nom est Emmanuel Columbus Mugenyi, I love solving problems using <code/>...\nReach me via: mail@columbus.dev';
+<body>
+	<!-- preloader area start -->
+	<div class="preloader" id="preloader">
+		<div class="loader loader-1">
+			<div class="loader-outter"></div>
+			<div class="loader-inner"></div>
+		</div>
+	</div>
 
-function type() {
-  let textChar = text.charAt(textLength++);
-  let paragraph = document.getElementById("typed");
-  let charElement = document.createTextNode(textChar);
-  paragraph.appendChild(charElement);
-  if (textLength < text.length + 1) {
-    setTimeout('type()', 50);
-  } else {
-    text = '';
-  }
-}
+	<div id="main">
+		<!--Main-Menu Area Start-->
+		<div class="mainmenu-area">
+			<nav class="my-navbar">
+				<ul class="navbar-links">
+					<li class="mynav-item active">
+						<a class="mynav-link active" href="#home">Home</a>
+					</li>
+					<li class="mynav-item">
+						<a class="mynav-link" href="#about">About</a>
+					</li>
+					<li class="mynav-item">
+						<a class="mynav-link" href="#resume">Resume</a>
+					</li>
+					<li class="mynav-item portfolio">
+						<a class="mynav-link portfolio" href="#portfolio">Portfolio</a>
+					</li>
+					<li class="mynav-item">
+						<a class="mynav-link" href="#blog">Blog</a>
+					</li>
+					<li class="mynav-item">
+						<a class="mynav-link" href="#contact">Contact</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+		<!--Main-Menu Area Start-->
 
-document.addEventListener("DOMContentLoaded", function () {
-  type();
-});
-</script>
+		<!--Hero Area Start-->
+		<section class="home section-bg active" id="home">
+			<div class="h-100vh d-flex align-items-center">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-6">
+							<div class="main-profile-image">
+								<img src="assets/images/main-1.jpg" alt="">
+							</div>
+						</div>
+						<div class="col-lg-6  align-self-center">
+							<div class="hero-box text-left">
+								<span class="greeting">HELLO</span>
+								<h2 class="name">
+									I'm <span>Emmanuel Columbus Mugenyi</span>
+								</h2>
 
-  
+								<h4 class="header_title"> I Do <span id="typed"></span></h4>
+								<p class="short-info">
+									With over 5+ years of programing experience.
+									I studied Bsc. Computer Science at Makerere University and later honed my skills through commercial and
+									freelance experience. I have contributed to projects around Fintech solutions, e-commerce, News platforms and many more.
+									My skills include C# (.Net), Back-end software development, database design, JavaScript and Python.
+								</p>
+								<p>My hobbies are travel, photography, community tech meetups, code challenges and music </p>
+								<p>Code, Coffee & Smooth Jazz Anytime!!</p>
+								<a target="_blank" class="mybtn mybtn-bg" href="https://www.linkedin.com/in/ecmugenyi"><span><i
+											class="fas fa-briefcase"></i>Portfolio</span></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--Hero Area End-->
+	</div>
+	<!-- Main Website wrapper End -->
+
+	<!-- Main jquery and all jquery plugin hear -->
+	<script src="assets/js/jquery.js"></script>
+	<script src="assets/js/bootstrap.min.js"></script>
+	<script src="assets/js/magnific-popup.js"></script>
+	<script src="assets/js/circel.js"></script>
+	<script src="assets/js/typed.min.js"></script>
+	<script src="assets/js/mixitup.min.js"></script>
+	<script src="assets/js/owl.carousel.min.js"></script>
+	<script src="assets/js/main.js"></script>
 
 </body>
 
 </html>
- 
